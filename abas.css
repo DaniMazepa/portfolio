@@ -115,13 +115,14 @@ footer {
   }
 
   .nome {
-    position: static;
-    display: block;
+    position: absolute;           /* mantém sobre a imagem */
+    top: 30px;                    /* distância do topo */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5em;
     text-align: center;
     z-index: 2;
-    margin: 20px 0;
   }
-
 
   .foto {
     height: auto;
