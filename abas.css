@@ -116,8 +116,8 @@ footer {
   }
 
   .nome {
-    position: absolute;           /* mantém sobre a imagem */
-    top: 30px;                    /* distância do topo */
+    position: absolute;           
+    top: 30px;                    
     left: 50%;
     transform: translateX(-50%);
     font-size: 2.5em;
