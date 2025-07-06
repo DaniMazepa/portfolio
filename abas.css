@@ -111,9 +111,11 @@ footer {
 
   .nome {
     position: static;
+    display: block;
     text-align: center;
     margin: 20px 0;
   }
+}
 
   .foto {
     height: auto;
