@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Online</title>
+  <link rel="stylesheet" href="portfolioonline.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Lado esquerdo com imagem -->
+  <div class="container">
+    <div class="coluna esquerda">
+      <h2 class="nome">Dani Mazepa</h2>
+      <img src="imagens/dev_girl_high_res.png" alt="Imagem portfólio" class="foto">
+    </div>
+
+    <!-- Conteúdo controlado por abas -->
+    <div class="coluna direita">
+
+      <!-- Abas com inputs -->
+      <input type="radio" name="aba" id="aba1">
+      <input type="radio" name="aba" id="aba2">
+      <input type="radio" name="aba" id="aba3">
+      <input type="radio" name="aba" id="aba4">
+
+      <nav class="botoes">
+        <label for="aba1">Sobre Mim</label>
+        <label for="aba2">Formação</label>
+        <label for="aba3">Portfólio</label>
+        <label for="aba4">Contato</label>
+      </nav>
+
+      <!-- Conteúdo das abas -->
+      <section class="conteudo" id="conteudo1">
+        <h2>Sobre Mim</h2>
+        <p>Sou a Dani Mazepa, publicitária de formação, estrategista de mídia por paixão e, nos últimos anos, alguém que decidiu ir além e mergulhar no universo do desenvolvimento de sistemas.</p>
+        <p>Sempre acreditei que a comunicação transforma, conecta marcas, pessoas e ideias. Mas também acredito que a tecnologia tem o poder de potencializar tudo isso.</p>
+      </section>
+
+      <section class="conteudo" id="conteudo2">
+        <h2>Formação</h2>
+        <p>Sou formada em Publicidade e Propaganda, com sólida experiência em planejamento de mídia, performance e gestão de tráfego pago. Essa atuação prática despertou meu interesse por dados, automação e soluções tecnológicas, o que me levou a cursar Análise e Desenvolvimento de Sistemas.</p>
+
+        <p>Minha formação é complementada por especializações em inteligência artificial, produtividade e otimização de campanhas digitais, integrando conhecimentos para entregar estratégias mais precisas, eficientes e baseadas em dados.</p>
+      </section>
+
+      <section class="conteudo" id="conteudo3">
+        <h2>Portfólio</h2>
+        <ul>
+          <li><a href="#">Projeto 1</a></li>
+          <li><a href="#">Projeto 2 </a></li>
+        </ul>
+      </section>
+
+      <section class="conteudo" id="conteudo4">
+        <h2>Contato</h2>
+        <form>
+          <label>Nome:<br><input type="text"></label><br>
+          <label>Email:<br><input type="email"></label><br>
+          <label>Mensagem:<br><textarea rows="4"></textarea></label>
+        </form>
+      </section>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dani Mazepa</p>
+  </footer>
+
+</body>
+</html>
