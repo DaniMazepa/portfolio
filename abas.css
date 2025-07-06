@@ -23,9 +23,11 @@ body {
 .nome {
   font-family: 'Pacifico', cursive;
   position: absolute;
-  top: 40px; 
-  left: 20%;
-  font-size: 4em;
+  top: 50px; 
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  font-size: 3em;
   z-index: 2;
   color: white;
   text-shadow: 
@@ -116,6 +118,7 @@ footer {
     position: static;
     display: block;
     text-align: center;
+    z-index: 2;
     margin: 20px 0;
   }
 
