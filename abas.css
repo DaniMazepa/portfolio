@@ -96,3 +96,27 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .coluna.esquerda,
+  .coluna.direita {
+    width: 100%;
+    height: auto;
+  }
+
+  .nome {
+    position: static;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .foto {
+    height: auto;
+    object-position: center;
+  }
+}
